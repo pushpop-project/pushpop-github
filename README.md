@@ -1,5 +1,7 @@
 ## pushpop-github
 
+[![Build Status](https://travis-ci.org/pushpop-project/pushpop-github.svg)](https://travis-ci.org/pushpop-project/pushpop-github)
+
 Github API integration for [Pushpop](https://github.com/keenlabs/pushpop).
 
 ### Installation

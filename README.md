@@ -20,7 +20,7 @@ $ gem install pushpop-github
 
 ### Usage
 
-Here's a simple that job defines a `github` step, setting a `user` and `repository`:
+Here's a simple job that defines a `github` step, setting a `user` and `repository`:
 
 ``` ruby
 require 'pushpop-github'

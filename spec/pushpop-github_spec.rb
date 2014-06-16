@@ -3,7 +3,7 @@ require 'spec_helper'
 describe Pushpop::Github do
   it 'should return repository information' do
     step = Pushpop::Github.new do
-      user 'keenlabs'
+      user 'pushpop-project'
       repository 'pushpop'
     end
     repo = step.run
@@ -13,7 +13,7 @@ describe Pushpop::Github do
   it 'should register as a plugin' do
     github_job = job do
       github do
-        user 'keenlabs'
+        user 'pushpop-project'
         repository 'pushpop'
       end
     end
@@ -24,7 +24,7 @@ describe Pushpop::Github do
   it 'should raise an error if repository is not configured' do
     expect {
       step = Pushpop::Github.new do
-        user 'keenlabs'
+        user 'pushpop-project'
       end
       step.run
     }.to raise_error /Please set/

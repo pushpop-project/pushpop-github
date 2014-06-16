@@ -6,7 +6,4 @@ gem 'github_api'
 group :development, :test do
   gem 'rake'
   gem 'rspec'
-  gem 'debugger'
-  gem 'mail'
-  gem 'twilio-ruby'
 end
